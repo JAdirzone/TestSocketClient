@@ -11,8 +11,8 @@ import java.net.UnknownHostException;
 
 public class TClient extends AsyncTask<Void, Void, Void> {
 
-    String dstAddress;
-    int dstPort;
+    String dstAddress = "10.145.196.100";
+    int dstPort = 8080;
     String response = "";
     TextView textResponse;
 
